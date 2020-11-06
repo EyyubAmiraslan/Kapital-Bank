@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+    {{form.csrf_token}}
+    <p>{{form.card_name}}</p>
+    <p>{{form.card_platform}}</p>
+    <p>{{form.card_info}}</p>
+    <p>{{form.card_price(type='number')}}</p>
+    <p>{{form.card_service(type='number')}}</p>
+    <p>{{form.type_name}}</p>
+    <p>{{form.card_img(type="file")}}</p>
+    <input type="submit" value="Gonder" >
+    </form>
+    
+</body>
+</html>

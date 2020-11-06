@@ -1,0 +1,59 @@
+header{
+    padding-top: 20px;
+
+    
+}
+.parrent{
+    max-width: 1282px;
+    max-height: 83px;
+}
+
+#header_ul{
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+
+}
+.header_li{
+   
+}
+#header_col6{
+    
+    line-height: 2.5;
+    
+}
+.header_a{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#2e3131
+
+}
+.header_a:hover{
+    text-decoration: none;
+    color: darkgray;
+    color:#2e3131;
+    font-family:'Source Sans Pro', sans-serif;
+
+
+}
+#header_bold_a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2e3131;
+    font-size: 14px;
+    font-weight: bold;
+    
+    
+
+}
+#header_bold_a:hover{
+    text-decoration: none;
+}
+
+#map_marker{
+    color: red;
+    margin-right: 2px;
+}
+
+
